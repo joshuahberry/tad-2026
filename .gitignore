@@ -56,3 +56,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Large data/model files (exceed GitHub 100MB limit — keep local only)
+notebooks/gpt_verdict.pth
+homeworks/glove.6B.50d.txt
+notebooks/glove.6B.50d.txt
+homeworks/us_congress_speeches_sample.csv
+*.pth
+*.pt
+glove.*.txt
